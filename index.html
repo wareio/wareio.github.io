@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+<!-- Meta Tags -->
+<title>Software &amp; Hardware Services</title>   
+
+<meta name="description" content="We host, create, and tuned super speedy responsive mobile &amp; desktop website, like no other." /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="http://static.ware.io/css/main.css">
+
+<!-- Font Icons -->
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+<style>
+<!-- Responsive -->
+@media (min-width: 768px) and (max-width: 979px) {
+	#menu {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin: 0;
+	}
+	
+	header .sticky-nav #mobile-nav,
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	#back-to-top {
+		display: none !important;	
+	}
+	
+	#home-slider {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+	header .sticky-nav {
+		position: relative;	
+	}
+	
+	header .sticky-nav,
+	#navigation-mobile,
+	.page,
+	.page-alternate {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;	
+	}
+	
+	header .sticky-nav #logo {
+		margin-left: 0;
+	}
+	
+	header .sticky-nav.stuck #logo {
+		margin-left: 20px;	
+	}
+	
+	header .sticky-nav #menu {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu {
+		margin-right: 20px;	
+	}
+	
+	#menu {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+	}
+	
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+}
+
+@media (max-width: 480px) {
+	#back-to-top {
+		display: none !important;	
+	}
+	
+	#home-slider {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	
+	#home-slider ul#slide-list {
+		display: none;	
+	}
+	
+	header .sticky-nav {
+		position: relative;	
+	}
+	
+	header .sticky-nav,
+	#navigation-mobile,
+	.page,
+	.page-alternate {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;	
+	}
+	
+	header .sticky-nav #logo {
+		margin-left: 0;
+	}
+	
+	header .sticky-nav.stuck #logo {
+		margin-left: 20px;	
+	}
+	
+	header .sticky-nav #menu {
+		margin-right: 0;
+	}
+	
+	header .sticky-nav.stuck #menu {
+		margin-right: 20px;	
+	}
+	
+	#menu {
+		display: none;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	#menu-nav-mobile {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+	}
+	
+	#navigation-mobile li a {
+		font-size: 14px;
+		padding: 12px 0;
+	}
+	
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;	
+	}
+
+}
+
+@media (max-width: 320px) {
+	#navigation-mobile li a {
+		padding: 20px 0;
+	}
+}
+
+
+/* Retina Display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ 	only screen and (-moz-min-device-pixel-ratio: 2),
+  	only screen and (-o-min-device-pixel-ratio: 2/1),
+  	only screen and (min-device-pixel-ratio: 2),
+  	only screen and (min-resolution: 2dppx) {
+		
+		header #logo a {
+			background-image: url(http://static.ware.io/img/logo_@2x.png);
+			background-size: 30px 30px;
+		}
+		
+		.menu-nav {
+			background-image: url(http://static.ware.io/img/menu-mobile_@2x.png);
+			background-size: 16px 32px;
+		}
+	}
+
+<!-- Supersized -->
+* { margin:0; padding:0; }
+img { border:none; }
+
+#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em;}
+
+#supersized {  display:block; position:fixed; left:0; top:0; overflow:hidden; z-index:-1; height:100%; width:100%; margin:0; padding:0; }
+#supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+
+#supersized li { display:block; list-style:none; z-index:-30; position:fixed; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111; }
+#supersized a { width:100%; height:100%; display:block; }
+#supersized li.prevslide { z-index:-20; }
+#supersized li.activeslide { z-index:-10; }
+#supersized li.image-loading { background:#111; width:100%; height:100%; }
+#supersized li.image-loading img{ visibility:hidden; }
+#supersized li.prevslide img, #supersized li.activeslide img{ display:inline-block; }
+
+<!-- Google Font -->
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Titillium WebThin'), local('TitilliumWeb-Thin'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr3XqdloEk0Ij5qwGW4qO9RM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/7XUFZ5tgS-tD6QamInJTcdGU7DQ8I6RFMlK0vgclk7w.woff) format('woff');
+}
+</style>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Apple Touch Icon
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+-->
+
+<!-- Analytics -->
+<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-42913723-1', 'ware.io');
+		  ga('send', 'pageview');
+</script>
+<!-- End Analytics -->
+
+</head>
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">  
+	
+	<div class="control-nav">
+       <div id="tagline">Software &amp; Hardware Services</div>
+        
+        <a id="nextsection" href="#contact"><i class="fa fa-chevron-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="The Software &amp; Hardware Service Provider Company">WARE.IO</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We&apos;re currently accepting new client projects. We look forward to serving you.<br>Kindly email us, <a href="#">hello@ware.io</a></h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="fa fa-chevron-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="http://static.ware.io/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="http://static.ware.io/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="http://static.ware.io/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="http://static.ware.io/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="http://static.ware.io/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
